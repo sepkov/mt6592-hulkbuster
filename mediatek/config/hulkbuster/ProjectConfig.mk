@@ -83,7 +83,7 @@ CUSTOM_HAL_SUB_IMGSENSOR=ov5648_mipi_raw
 CUSTOM_HAL_SUB_LENS=dummy_lens
 
 # accelerometer sensor to detect accelerometer from x y z axis.
-CUSTOM_KERNEL_ACCELEROMETER=lsm330
+CUSTOM_KERNEL_ACCELEROMETER=bmc056_acc
 
 
 # ALSPS sensor driverto detect ambint light and the object is close or far awary from device
@@ -154,8 +154,8 @@ CUSTOM_KERNEL_MAIN_LENS=fm50af
 CUSTOM_KERNEL_RTC=rtc
 
 # For audio kernel driver's speaker customization folder definition.
-CUSTOM_KERNEL_SOUND=amp_6323pmic_spk
-CUSTOM_KERNEL_SSW=ssw_single
+CUSTOM_KERNEL_SOUND=amp_yad
+# CUSTOM_KERNEL_SSW=ssw_single
 
 # lens driver config for video telephony camera (2nd solution)
 CUSTOM_KERNEL_SUB_BACKUP_LENS=
@@ -384,12 +384,12 @@ MTK_BQ24156_SUPPORT=no
 # BQ24158 charger support
 MTK_BQ24158_SUPPORT=no
 MTK_BQ24160_SUPPORT=no
-MTK_BQ24196_SUPPORT=no
+MTK_BQ24196_SUPPORT=yes
 
 # for charger IC BQ24297 support
 MTK_BQ24297_SUPPORT=no
 
-MTK_BQ24296_SUPPORT=yes
+MTK_BQ24296_SUPPORT=no
 
 # yes : support TI bq27541 external gauge IC
 # no: not support TI bq27541 external gauge IC
