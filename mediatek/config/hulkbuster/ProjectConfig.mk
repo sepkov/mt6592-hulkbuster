@@ -167,7 +167,7 @@ CUSTOM_KERNEL_SUB_IMGSENSOR=ov5648_mipi_raw
 CUSTOM_KERNEL_SUB_LENS=dummy_lens
 
 # touch driver  need to report correct touch axes
-CUSTOM_KERNEL_TOUCHPANEL=ft5606
+CUSTOM_KERNEL_TOUCHPANEL=ft5x06tb
 
 # Configuration for USB PHY
 CUSTOM_KERNEL_USB=mt6577
