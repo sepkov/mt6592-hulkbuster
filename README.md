@@ -1,35 +1,22 @@
 WHAT IS THIS?
 =============
 
-Linux Kernel source code for the device bq Aquaris E10
+Linux Kernel source code for the General Mobile E-Tab 5 (hulkbuster)
 
-BUILD INSTRUCTIONS?
+This is completely based off of the BQ Aquaris E10 Wi-Fi kernel.
+
+BUILD INSTRUCTIONS
 ===================
 
 Specific sources are separated by branches and each version is tagged with it's corresponding number. First, you should
 clone the project:
 
-	$ git clone git@github.com:bq/aquaris-E10.git
+	$ git clone https://github.com/dyingwillowtree/ mt6592-hulkbuster
 
 After it, choose the version you would like to build:
 
-*Aquaris E10 wifi*
+*E-Tab 5 (hulkbuster)*
 
-        $ cd aquaris-E10
-        $ git checkout aquaris-E10-wifi
-
-*Aquaris E10 3g*
-
-        $ cd aquaris-E10/
-        $ git checkout aquaris-E10-3g
-
-
-Finally, build the kernel according the next table of product names:
-
-| device                                                                                | product                                                               |
-| --------------------------|-------------------------|
-| bq aquaris E10 wifi                              | kaito_wifi                                      |
-| bq aquaris E10 3g      | kaito                     |
-
-        $ ./makeMtk -t {product} n k
+        $ cd mediatek-kernel-hulkbuster/
+        $ ./makeMtk -t hulkbuster n k
 
