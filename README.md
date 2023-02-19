@@ -11,7 +11,7 @@ BUILD INSTRUCTIONS
 Specific sources are separated by branches and each version is tagged with it's corresponding number. First, you should
 clone the project:
 
-	$ git clone https://github.com/dyingwillowtree/ mt6592-hulkbuster
+	$ git clone https://github.com/dyingwillowtree/mt6592-hulkbuster
 
 After it, choose the version you would like to build:
 
