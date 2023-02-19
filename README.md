@@ -17,6 +17,6 @@ After it, choose the version you would like to build:
 
 *E-Tab 5 (hulkbuster)*
 
-        $ cd mediatek-kernel-hulkbuster/
+        $ cd  mt6592-hulkbuster/
         $ ./makeMtk -t hulkbuster n k
 
