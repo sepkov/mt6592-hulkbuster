@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "upmu_common_sw.h": "c",
+        "cust_leds_def.h": "c"
+    }
+}
