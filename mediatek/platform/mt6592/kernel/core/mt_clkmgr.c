@@ -49,15 +49,20 @@ static void print_mtcmos_trace_info_for_met(void);
 #define TAG     "Power/clkmgr"
 
 #define clk_err(fmt, args...)       \
-    xlog_printk(ANDROID_LOG_ERROR, TAG, fmt, ##args)
+    ((void)0)
+    // xlog_printk(ANDROID_LOG_ERROR, TAG, fmt, ##args)
 #define clk_warn(fmt, args...)      \
-    xlog_printk(ANDROID_LOG_WARN, TAG, fmt, ##args)
+    ((void)0)
+    // xlog_printk(ANDROID_LOG_WARN, TAG, fmt, ##args)
 #define clk_info(fmt, args...)      \
-    xlog_printk(ANDROID_LOG_INFO, TAG, fmt, ##args)
+    ((void)0)
+    // xlog_printk(ANDROID_LOG_INFO, TAG, fmt, ##args)
 #define clk_dbg(fmt, args...)       \
-    xlog_printk(ANDROID_LOG_DEBUG, TAG, fmt, ##args)
+    ((void)0)
+    // xlog_printk(ANDROID_LOG_DEBUG, TAG, fmt, ##args)
 #define clk_ver(fmt, args...)       \
-    xlog_printk(ANDROID_LOG_VERBOSE, TAG, fmt, ##args)
+    ((void)0)
+    // xlog_printk(ANDROID_LOG_VERBOSE, TAG, fmt, ##args)
 
 #else
 
