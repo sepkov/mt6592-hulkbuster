@@ -42,7 +42,7 @@ static DEFINE_MUTEX(FGADC_mutex);
 #define CV_CURRENT 6000		/* 600mA */
 static kal_int32 g_currentfactor = 100;
 #endif
-int Enable_FGADC_LOG = 1;
+int Enable_FGADC_LOG = 0;
 
 // ============================================================ //
 // global variable
