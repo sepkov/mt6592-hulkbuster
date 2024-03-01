@@ -331,6 +331,7 @@ void disp_check_clock_tree(void) {
 void disp_print_reg(DISP_MODULE_ENUM module);
 static int disp_irq_log_kthread_func(void *data)
 {
+    return 0;
     unsigned int i=0;
     while(1)
     {
